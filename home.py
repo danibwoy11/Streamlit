@@ -4,8 +4,8 @@ from PIL import Image
 
 
 def home_page():
-    image = Image.open(r"C:\Users\Alucard\Desktop\Streamlit\Images\b4a686dadbee7dfa513778462d12b871_cp.jpg")
-    st.image(image)
+    
+    st.image(r"C:\Users\Alucard\Desktop\Streamlit\Images\b4a686dadbee7dfa513778462d12b871_cp.jpg")
     st.title('Telco Churn Classification App')
 
     st.markdown('''
