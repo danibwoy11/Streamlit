@@ -1,2 +1,4 @@
 matplotlib
 seaborn
+pickle
+scikit-learn
