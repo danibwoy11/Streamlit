@@ -5,7 +5,7 @@ from PIL import Image
 
 def home_page():
     
-    st.image(r"Images\b4a686dadbee7dfa513778462d12b871_cp.jpg")
+    
     st.title('Telco Churn Classification App')
 
     st.markdown('''
@@ -52,7 +52,7 @@ def home_page():
 
     # st.markdown('[a demo](r:C:\Users\Alucard\Videos\Captures\Sekiro 2024-10-16 22-48-29.mp4)')
 
-    st.image(r"C:\Users\Alucard\Desktop\Streamlit\Images\Sekiro 16_10_2024 10_57_14 pm.png")
+    
 
     st.divider()
     st.write('+++'*15)
@@ -61,7 +61,7 @@ def home_page():
     st.write('Contact me on:')
 
     #add an image/ way 1
-    st.image(r"C:\Users\Alucard\Desktop\Streamlit\Images\download.png")
+    
     st.markdown('[Visit LinkedIn Profile](www.linkedin.com/in/daniel-nortey-954952328)')
 
 
