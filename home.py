@@ -15,7 +15,7 @@ def home_page():
             st.video(vids_url)
 
 
-    st.image(r'Images\b4a686dadbee7dfa513778462d12b871_cp.jpg')
+    
     
     st.title('Telco Churn Classification App')
 
