@@ -4,7 +4,18 @@ from PIL import Image
 
 
 def home_page():
-    
+    vids_url = [
+        'https://www.youtube.com/watch?v=HfN67NC1AVw&t=52s',
+        "https://www.youtube.com/watch?v=i1xqq8IB8ZA",
+
+    ]
+
+    for i, vids_url in enumerate(vids_url):
+        with st.expander(f"Video{i+1}"):
+            st.video(vids_url)
+
+
+    st.image(r'Images\b4a686dadbee7dfa513778462d12b871_cp.jpg')
     
     st.title('Telco Churn Classification App')
 
@@ -45,11 +56,7 @@ def home_page():
                 streamlit run p.py
         ''')
 
-    st.video('https://www.youtube.com/watch?v=HfN67NC1AVw&t=52s', autoplay= True, muted=True)
-    
-    #adding the clickable link
-    st.markdown('[Watch a demo](https://www.youtube.com/watch?v=i1xqq8IB8ZA)' )
-
+   
     # st.markdown('[a demo](r:C:\Users\Alucard\Videos\Captures\Sekiro 2024-10-16 22-48-29.mp4)')
 
     
